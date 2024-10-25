@@ -19,3 +19,7 @@ https://drive.google.com/file/d/1d9DjLROo1zhCo48DBgH1i81JaqnF8MAM/view?usp=shari
 Download the Yolo_Nas train model weights from given link:
 
 https://drive.google.com/file/d/19ZlJcRUQ3mWyfPwRx2fcjC6bKPVXHU_2/view?usp=sharing
+
+The complex background dataset (CBD) can be downloaded from this link 
+
+"https://drive.google.com/file/d/1-BmnQe9LllS7EA4NhGGj-2f7MKZjfnR-/view?usp=sharing"
