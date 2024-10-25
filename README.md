@@ -1,4 +1,4 @@
-** Impact of Adverse Weather and Image Distortions on Vision-based UAV Detection **
+**Impact of Adverse Weather and Image Distortions on Vision-based UAV Detection**
 
 Download the Yolov5 train model weights from given link:
 
