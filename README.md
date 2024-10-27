@@ -28,3 +28,6 @@ Video for Enhanced YOLOv5 Model:
 
 https://drive.google.com/file/d/1H531EM6LKWs3Cos3MSmcPnUByS7inhCp/view?usp=drive_link
 
+[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
+
+
