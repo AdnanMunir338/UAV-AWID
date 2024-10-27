@@ -28,7 +28,7 @@ Video for Enhanced YOLOv5 Model:
 
 https://drive.google.com/file/d/1H531EM6LKWs3Cos3MSmcPnUByS7inhCp/view?usp=drive_link
 
-<video src='[your URL here](https://drive.google.com/file/d/1H531EM6LKWs3Cos3MSmcPnUByS7inhCp/view?usp=drive_link)' width=180/>
+
 
 
 
