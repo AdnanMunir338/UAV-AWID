@@ -38,6 +38,14 @@ Heavy: https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh?
 
 Torrential: https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link
 
+The Motion Blur Test Set (MBTS):
+
+Low: https://drive.google.com/drive/folders/12oAfvrGaa1dz1UW7qFvEUrxEcZYIFd_n?usp=sharing
+
+Medium: https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh?usp=drive_link
+
+High: https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link
+
 
 
 
