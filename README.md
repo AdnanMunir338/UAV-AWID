@@ -28,7 +28,7 @@ The complex background dataset (CBD) can be downloaded from this link
 
 https://drive.google.com/file/d/1-BmnQe9LllS7EA4NhGGj-2f7MKZjfnR-/view?usp=sharing
 
-**The UAV-AWD (UAVs-Adverse Weather Dataset)**
+**The UAV-AWID (UAVs-Adv Weather and Image Distortions)**
 
 The Rainy test Set (RTS):
 
