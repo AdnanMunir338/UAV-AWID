@@ -30,7 +30,7 @@ https://drive.google.com/file/d/1-BmnQe9LllS7EA4NhGGj-2f7MKZjfnR-/view?usp=shari
 
 **The UAV-AWID (UAVs-Adv Weather and Image Distortions)**
 
-The Rainy test Set (RTS):
+The Rainy test DataSet (RTSD):
 
 Drizzle: https://drive.google.com/drive/folders/1tZY-CggDojx5xMS9icmvwH1qBpioTFKt?usp=drive_link
 
@@ -38,7 +38,7 @@ Heavy: https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh?
 
 Torrential: https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link
 
-The Motion Blur Test Set (MBTS):
+The Motion Blur Test DataSet (MBTD):
 
 Low: https://drive.google.com/drive/folders/12oAfvrGaa1dz1UW7qFvEUrxEcZYIFd_n?usp=sharing
 
@@ -46,6 +46,13 @@ Medium: https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh
 
 High: https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link
 
+The Artificial Noise Test DataSet (ANTD):
+
+Low: https://drive.google.com/drive/folders/12oAfvrGaa1dz1UW7qFvEUrxEcZYIFd_n?usp=sharing
+
+Medium: https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh?usp=drive_link
+
+High: https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link
 
 
 
