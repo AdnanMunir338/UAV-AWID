@@ -15,8 +15,7 @@ Unmanned aerial vehicle (UAV) detection in real-time is challenging, particularl
 - [Datasets](#datasets)
 - [Methodology](#methodology)
 - [Results](#results)
-- [How to Use](#how-to-use)
-- [Acknowledgments](#acknowledgments)
+- [How to Cite](#Cite)
 
 ---
 
@@ -89,4 +88,21 @@ This study evaluates the following models under various adverse conditions:
 </details>
 
 ---
+## **How to cite**
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@Article{drones8110638,
+  AUTHOR = {Munir, Adnan and Siddiqui, Abdul Jabbar and Anwar, Saeed and El-Maleh, Aiman and Khan, Ayaz H. and Rehman, Aqsa},
+  TITLE = {Impact of Adverse Weather and Image Distortions on Vision-Based UAV Detection: A Performance Evaluation of Deep Learning Models},
+  JOURNAL = {Drones},
+  VOLUME = {8},
+  YEAR = {2024},
+  NUMBER = {11},
+  ARTICLE-NUMBER = {638},
+  URL = {https://www.mdpi.com/2504-446X/8/11/638},
+  ISSN = {2504-446X},
+  DOI = {10.3390/drones8110638}
+}
 
