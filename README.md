@@ -81,95 +81,95 @@ https://drive.google.com/file/d/1H531EM6LKWs3Cos3MSmcPnUByS7inhCp/view?usp=drive
 
 
 
+# **Impact of Adverse Weather and Image Distortions on Vision-Based UAV Detection: A Performance Evaluation of Deep Learning Models**
 
+[![GitHub stars](https://img.shields.io/github/stars/your_repo?style=social)](https://github.com/your_repo/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/your_repo?style=social)](https://github.com/your_repo/network/members)
+![GitHub license](https://img.shields.io/github/license/your_repo)
+[![DOI](https://zenodo.org/badge/DOI/10.xxxx/zenodo.xxxxx.svg)](https://doi.org/10.xxxx/zenodo.xxxxx)
 
-Impact of Adverse Weather and Image Distortions on Vision-Based UAV Detection: A Performance Evaluation of Deep Learning Models
+---
 
-Abstract
+## **Abstract**
 Unmanned aerial vehicle (UAV) detection in real-time is challenging, particularly under adverse weather. This work evaluates popular deep learning models under various weather and image distortion conditions, including rain, motion blur, and noise. A custom dataset and benchmark study reveal the significant impact of these conditions on UAV detection models (YOLOv5, YOLOv8, Faster-RCNN, RetinaNet, and YOLO-NAS), with performance degrading by up to 77 points in mean average precision (mAP) under severe conditions. This work proposes an enhancement strategy to improve model resilience, achieving substantial mAP improvements under challenging conditions.
 
-Table of Contents
-Introduction
-Datasets
-Methodology
-Results
-How to Use
-Acknowledgments
-Introduction
+---
+
+## **Table of Contents**
+- [Introduction](#introduction)
+- [Datasets](#datasets)
+- [Methodology](#methodology)
+- [Results](#results)
+- [How to Use](#how-to-use)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+## **Introduction**
 This project investigates the performance degradation of vision-based UAV detection models under adverse weather and image distortions, including conditions like heavy rain, motion blur, and noise.
 
-Datasets
-Complex Background Dataset (CBD)
+---
 
-UAV-AWID (UAVs-Adv Weather and Image Distortions)
-Rainy Test Dataset (RTSD):
+## **Datasets**
 
-Drizzle
-Heavy
-Torrential
-Motion Blur Test Dataset (MBTD):
+### **Complex Background Dataset (CBD)**
+[![Download Complex Background Dataset](https://img.shields.io/badge/Download-Complex%20Background%20Dataset-blue?style=for-the-badge)](https://drive.google.com/file/d/1-BmnQe9LllS7EA4NhGGj-2f7MKZjfnR-/view?usp=sharing)
 
-Low
-Medium
-High
-Artificial Noise Test Dataset (ANTD):
+### **UAV-AWID (UAVs-Adv Weather and Image Distortions)**
 
-Low
-Medium
-High
-Augmented Complex Background Dataset (ACBD)
+- **Rainy Test Dataset (RTSD):**
+  - [Drizzle](https://drive.google.com/drive/folders/1tZY-CggDojx5xMS9icmvwH1qBpioTFKt?usp=drive_link)
+  - [Heavy](https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh?usp=drive_link)
+  - [Torrential](https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link)
 
-Methodology
+- **Motion Blur Test Dataset (MBTD):**
+  - [Low](https://drive.google.com/drive/folders/12oAfvrGaa1dz1UW7qFvEUrxEcZYIFd_n?usp=sharing)
+  - [Medium](https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh?usp=drive_link)
+  - [High](https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link)
+
+- **Artificial Noise Test Dataset (ANTD):**
+  - [Low](https://drive.google.com/drive/folders/12oAfvrGaa1dz1UW7qFvEUrxEcZYIFd_n?usp=sharing)
+  - [Medium](https://drive.google.com/drive/folders/1vhBinTDQmizwLFhyvJHmWZSEFkUs3yKh?usp=drive_link)
+  - [High](https://drive.google.com/drive/folders/1_AeAvDs-WiUbtdMD26OeXlv2QUT7okab?usp=drive_link)
+
+### **Augmented Complex Background Dataset (ACBD)**
+[![Download ACBD](https://img.shields.io/badge/Download-Augmented%20Complex%20Background%20Dataset-blue?style=for-the-badge)](https://drive.google.com/file/d/1DUjHxkbySyzjjNEHgOaBgjHFhcz5cREP/view?usp=sharing)
+
+---
+
+## **Methodology**
 This study evaluates the following models under various adverse conditions:
+- **Models**: YOLOv5, YOLOv8, Faster-RCNN, RetinaNet, and YOLO-NAS
+- **Evaluation Metrics**: Mean Average Precision (mAP) under adverse conditions such as rain, noise, and motion blur
 
-Models: YOLOv5, YOLOv8, Faster-RCNN, RetinaNet, and YOLO-NAS
-Evaluation Metrics: Mean Average Precision (mAP) under adverse conditions such as rain, noise, and motion blur
-Results
-<details> <summary>Performance Under Rain Conditions</summary>
+---
 
+## **Results**
 
-Summary: Performance degradation observed, with YOLOv5 mAP decreasing by X points in torrential rain.
+<details>
+<summary>Performance Under Rain Conditions</summary>
 
-</details> <details> <summary>Performance Under Motion Blur</summary>
+![Rain Results](https://github.com/user-attachments/assets/13877e0f-5c93-4093-91b1-da14288d420f)
 
-
-Summary: Significant impact on mAP, especially with high levels of motion blur, degrading performance by X points.
+**Summary**: Performance degradation observed, with YOLOv5 mAP decreasing by X points in torrential rain.
 
 </details>
-How to Use
-Setup
-Clone this repository.
-bash
-Copy code
-git clone https://github.com/your_repo.git
-cd your_repo
-Install required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Dataset Access
-Download the datasets and place them in the /datasets folder.
 
-Running Models
-Use the following command to evaluate models on your desired dataset:
+<details>
+<summary>Performance Under Motion Blur</summary>
 
-bash
-Copy code
-python evaluate.py --model <model_name> --dataset <dataset_name>
-Training
-To train the models with the augmented adverse weather dataset:
+![Motion Blur Results](https://github.com/user-attachments/assets/760dd4df-80cc-4132-bbf9-861a1b5aa352)
 
-bash
-Copy code
-python train.py --model <model_name> --dataset <augmented_dataset_name>
-Downloadable Model Weights
-Model	Download Link
-YOLOv5	YOLOv5 Weights
-YOLOv8	YOLOv8 Weights
-Faster-RCNN	Faster-RCNN Weights
-RetinaNet	RetinaNet Weights
-YOLO-NAS	YOLO-NAS Weights
-Enhanced YOLOv5 Demo
+**Summary**: Significant impact on mAP, especially with high levels of motion blur, degrading performance by X points.
 
-Acknowledgments
-Special thanks to all contributors and open-source resources used in this work.
+</details>
+
+---
+
+## **How to Use**
+
+### **Setup**
+1. Clone this repository.
+   ```bash
+   git clone https://github.com/your_repo.git
+   cd your_repo
