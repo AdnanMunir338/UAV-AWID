@@ -83,4 +83,93 @@ https://drive.google.com/file/d/1H531EM6LKWs3Cos3MSmcPnUByS7inhCp/view?usp=drive
 
 
 
+Impact of Adverse Weather and Image Distortions on Vision-Based UAV Detection: A Performance Evaluation of Deep Learning Models
 
+Abstract
+Unmanned aerial vehicle (UAV) detection in real-time is challenging, particularly under adverse weather. This work evaluates popular deep learning models under various weather and image distortion conditions, including rain, motion blur, and noise. A custom dataset and benchmark study reveal the significant impact of these conditions on UAV detection models (YOLOv5, YOLOv8, Faster-RCNN, RetinaNet, and YOLO-NAS), with performance degrading by up to 77 points in mean average precision (mAP) under severe conditions. This work proposes an enhancement strategy to improve model resilience, achieving substantial mAP improvements under challenging conditions.
+
+Table of Contents
+Introduction
+Datasets
+Methodology
+Results
+How to Use
+Acknowledgments
+Introduction
+This project investigates the performance degradation of vision-based UAV detection models under adverse weather and image distortions, including conditions like heavy rain, motion blur, and noise.
+
+Datasets
+Complex Background Dataset (CBD)
+
+UAV-AWID (UAVs-Adv Weather and Image Distortions)
+Rainy Test Dataset (RTSD):
+
+Drizzle
+Heavy
+Torrential
+Motion Blur Test Dataset (MBTD):
+
+Low
+Medium
+High
+Artificial Noise Test Dataset (ANTD):
+
+Low
+Medium
+High
+Augmented Complex Background Dataset (ACBD)
+
+Methodology
+This study evaluates the following models under various adverse conditions:
+
+Models: YOLOv5, YOLOv8, Faster-RCNN, RetinaNet, and YOLO-NAS
+Evaluation Metrics: Mean Average Precision (mAP) under adverse conditions such as rain, noise, and motion blur
+Results
+<details> <summary>Performance Under Rain Conditions</summary>
+
+
+Summary: Performance degradation observed, with YOLOv5 mAP decreasing by X points in torrential rain.
+
+</details> <details> <summary>Performance Under Motion Blur</summary>
+
+
+Summary: Significant impact on mAP, especially with high levels of motion blur, degrading performance by X points.
+
+</details>
+How to Use
+Setup
+Clone this repository.
+bash
+Copy code
+git clone https://github.com/your_repo.git
+cd your_repo
+Install required dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Dataset Access
+Download the datasets and place them in the /datasets folder.
+
+Running Models
+Use the following command to evaluate models on your desired dataset:
+
+bash
+Copy code
+python evaluate.py --model <model_name> --dataset <dataset_name>
+Training
+To train the models with the augmented adverse weather dataset:
+
+bash
+Copy code
+python train.py --model <model_name> --dataset <augmented_dataset_name>
+Downloadable Model Weights
+Model	Download Link
+YOLOv5	YOLOv5 Weights
+YOLOv8	YOLOv8 Weights
+Faster-RCNN	Faster-RCNN Weights
+RetinaNet	RetinaNet Weights
+YOLO-NAS	YOLO-NAS Weights
+Enhanced YOLOv5 Demo
+
+Acknowledgments
+Special thanks to all contributors and open-source resources used in this work.
