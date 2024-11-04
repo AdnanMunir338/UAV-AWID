@@ -1,6 +1,7 @@
 # **Impact of Adverse Weather and Image Distortions on Vision-Based UAV Detection: A Performance Evaluation of Deep Learning Models**
 
-[![DOI](https://doi.org/10.3390/drones8110638)]
+[![DOI](https://zenodo.org/badge/DOI/10.3390/drones8110638)](https://doi.org/10.3390/drones8110638)
+
 
 ---
 
