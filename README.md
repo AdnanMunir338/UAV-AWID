@@ -1,9 +1,6 @@
 # **Impact of Adverse Weather and Image Distortions on Vision-Based UAV Detection: A Performance Evaluation of Deep Learning Models**
 
-[![GitHub stars](https://img.shields.io/github/stars/your_repo?style=social)](https://github.com/your_repo/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your_repo?style=social)](https://github.com/your_repo/network/members)
-![GitHub license](https://img.shields.io/github/license/your_repo)
-[![DOI](https://zenodo.org/badge/DOI/10.xxxx/zenodo.xxxxx.svg)](https://doi.org/10.xxxx/zenodo.xxxxx)
+[![DOI][(https://doi.org/10.xxxx/zenodo.xxxxx](https://doi.org/10.3390/drones8110638))
 
 ---
 
