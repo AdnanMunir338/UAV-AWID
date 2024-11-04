@@ -84,16 +84,9 @@ This study evaluates the following models under various adverse conditions:
 
 ![image](https://github.com/user-attachments/assets/760dd4df-80cc-4132-bbf9-861a1b5aa352)
 
-**Summary**: Significant impact on mAP, especially with high levels of motion blur, degrading performance by X points.
+
 
 </details>
 
 ---
 
-## **How to Use**
-
-### **Setup**
-1. Clone this repository.
-   ```bash
-   git clone https://github.com/your_repo.git
-   cd your_repo
